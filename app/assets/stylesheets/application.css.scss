@@ -16,3 +16,49 @@
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+html {
+	height: 100%;
+}
+
+.navbar-default {
+	background-color: rgba(120, 180, 100, 1);
+	border-radius: 0;
+	border: none;
+	-webkit-box-shadow: 0 2px 2px 2px rgba(0,0,0,.3);
+	box-shadow: 0 2px 2px 2px rgba(0,0,0,.3);
+	.navbar-header {
+		.navbar-brand {
+			font-weight: 700;
+			text-transform: uppercase;
+			color: rgb(240,207,64);
+		}
+	}
+	.navbar-nav > li > a {
+		color: rgb(240,207,64);
+	}
+}
+
+body {
+	background: #16A085; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #16A085 , #F4D03F); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #16A085 , #F4D03F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#index_workouts {
+	h2 {
+		margin-bottom: 0;
+		font-weight: 100;
+		a {
+			color: black;
+		}
+	}
+	h3 {
+		margin: 0;
+		font-size: 18px;
+		span {
+			color: rgb(25,160,130);
+			opacity: 0.7;
+		}
+	}
+}
